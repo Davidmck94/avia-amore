@@ -71,3 +71,9 @@ main > * {
 /* media queries */
 
 /* YOUR CODE HERE */
+
+@media screen and (width: 500px) {
+  body {
+    
+  }
+}
