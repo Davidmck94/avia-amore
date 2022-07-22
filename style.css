@@ -76,22 +76,12 @@ main > * {
   body {
     display: flex;
     flex-direction: column;
-
   }
-   header {
-    flex-wrap: wrap;
-    margin: 10%;
-    flex-direction: row;
-    justify-content: start;
-    border: solid; 
-    width: 50%;
-
-
-   }
-   }
-   }
-
-  
-
+  header{
+    justify-content: space-between;
+    display: inline-block;
+  }
+  nav{
+    margin-top: 25px;
   }
 }
